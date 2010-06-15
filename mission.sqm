@@ -20,7 +20,8 @@ class Mission
 		"rh_de_cfg",
 		"HEXA_Tracked",
 		"HEXA_Wheeled",
-		"cacharacters2"
+		"cacharacters2",
+		"CAWeapons_M252_81mm_Mortar"
 	};
 	addOnsAuto[]=
 	{
@@ -39,6 +40,7 @@ class Mission
 		"RHmgswp",
 		"RH_mk18",
 		"rh_de_cfg",
+		"CAWeapons_M252_81mm_Mortar",
 		"baghdad"
 	};
 	randomSeed=2748823;
@@ -99,7 +101,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=24;
+		items=25;
 		class Item0
 		{
 			position[]={1442.6678,3.2213476,8980.4463};
@@ -338,6 +340,14 @@ class Mission
 			side="EMPTY";
 			vehicle="RHpistammobox";
 			leader=1;
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={3402.5957,5.0952115,7244.3535};
+			id=26;
+			side="EMPTY";
+			vehicle="M252";
 			skill=0.60000002;
 		};
 	};
